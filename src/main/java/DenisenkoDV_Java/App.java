@@ -47,9 +47,9 @@ public class App {
         System.out.println(Arrays.toString(array));
         System.out.println();
         System.out.println("Выводим элементы массива кратные 3: ");
-        for (int i = 0; i < array.length; i++) {
-            if ((array[i] % 3) == 0) {
-                System.out.print(array[i] + " ");
+        for (int j : array) {
+            if ((j % 3) == 0) {
+                System.out.print(j + " ");
             }
         }
     }
